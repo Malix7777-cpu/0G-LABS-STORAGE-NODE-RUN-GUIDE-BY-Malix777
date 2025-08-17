@@ -202,7 +202,7 @@ rm -rf $HOME/0g-storage-node
 
 > **Note:** ⏳ Node sync can take 6-12 hours (depending on your internet speed and hardware). ⚡ Once syncing is complete, the node will run automatically — no manual intervention needed! 
 ---
-## 🙋 Need Help
+## 🤖 Need Help
 
  📺 **Guides & Updates:** [@LEGENDARYLOOTERSSS](https://t.me/LEGENDARYLOOTERSSS)
 
