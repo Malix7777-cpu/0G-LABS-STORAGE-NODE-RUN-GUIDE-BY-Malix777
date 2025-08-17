@@ -87,3 +87,16 @@ cargo build --release
 ```
 rm -rf $HOME/0g-storage-node/run/config.toml
 ```
+```
+curl -o $HOME/0g-storage-node/run/config.toml https://raw.githubusercontent.com/Mayankgg01/0G-Storage-Node-Guide/main/config.toml
+```
+
+
+* Add Your Wallet's Private KEY in `config.toml`, ❗❗Dont Add **0X** before the key:
+
+-open and go to `miner_key` and add your pvt key:
+
+```
+nano $HOME/0g-storage-node/run/config.toml
+```
+
