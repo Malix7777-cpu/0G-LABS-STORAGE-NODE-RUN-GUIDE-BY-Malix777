@@ -187,6 +187,17 @@ sudo rm /etc/systemd/system/zgs.service
 rm -rf $HOME/0g-storage-node
 ```
 
+## 🔁 Restart ZGS Service
+
+```
+sudo systemctl restart zgs
+```
+
+## 💽 Check Disk Space
+
+```bash
+df -h
+```
 ## 🌍 Useful Links
 
 - 🔎 **Explorer (Check Transactions):**  
