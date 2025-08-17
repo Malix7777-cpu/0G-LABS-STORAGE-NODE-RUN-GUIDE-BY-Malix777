@@ -5,6 +5,8 @@ Unlike validator nodes, they don’t secure blocks — they store & serve data.
 📂 From AI models to big datasets, they keep everything persistent, available & resilient.
                       
  # 👻 0G Storage Node Guide ☠️
+## 🖥️ Minimum System Requirements
+
 🧠 Memory: 32 GB RAM
 
 🖥️ CPU: 8 cores
