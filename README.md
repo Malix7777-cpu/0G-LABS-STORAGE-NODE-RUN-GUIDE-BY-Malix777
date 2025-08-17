@@ -17,3 +17,5 @@ Unlike validator nodes, they don’t secure blocks — they store & serve data.
 
 ## 💡Pre-Setup
 
+1.🔗 Add 0G-Galileo-Testnet Chain:
+           # https://chainscan-galileo.0g.ai/
