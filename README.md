@@ -17,10 +17,12 @@ Unlike validator nodes, they don’t secure blocks — they store & serve data.
 
 ## 💡Pre-Setup
 
-C🔗 Add 0G-Galileo-Testnet Chain:
+1.🔗 Add 0G-Galileo-Testnet Chain:
            
            https://chainscan-galileo.0g.ai/
 
 2.💧 Get Testnet Tokens:
 
           https://faucet.0g.ai/
+
+          
