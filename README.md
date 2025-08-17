@@ -14,3 +14,6 @@ Unlike validator nodes, they don’t secure blocks — they store & serve data.
 💾 Disk: 500 GB / 1 TB NVMe SSD (adjust if needed)
 
 🌐 Bandwidth: 100 Mbps (Download/Upload)
+
+## 💡Pre-Setup
+
