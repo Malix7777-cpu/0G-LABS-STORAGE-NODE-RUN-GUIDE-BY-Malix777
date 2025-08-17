@@ -27,4 +27,6 @@ Unlike validator nodes, they don’t secure blocks — they store & serve data.
 
 # 🔧 Install Dependencies
 
+     sudo apt-get update && sudo apt-get upgrade -y
+
           
