@@ -156,3 +156,58 @@ tail -f ~/0g-storage-node/run/log/zgs.log.$(TZ=UTC date +%Y-%m-%d)
 ```
  while true; do     response=$(curl -s -X POST http://localhost:5678 -H "Content-Type: application/json" -d '{"jsonrpc":"2.0","method":"zgs_getStatus","params":[],"id":1}');     logSyncHeight=$(echo $response | jq '.result.logSyncHeight');     connectedPeers=$(echo $response | jq '.result.connectedPeers');     echo -e "logSyncHeight: \033[32m$logSyncHeight\033[0m, connectedPeers: \033[34m$connectedPeers\033[0m";     sleep 5; done
 ```
+
+## ⚡ * ⚕️ This Snapshot will help u to sync Faster & it will start from Block -- `4900000+`
+
+🛠️ Installation Instructions
+
+* Stop The Node & Delete flow db
+
+```
+sudo systemctl stop zgs
+```
+
+```
+rm -rf $HOME/0g-storage-node/run/db/flow_db
+```
+
+* Download and extract the Flow db:
+
+  ```bash
+
+  wget https://snapshot.corenodehq.xyz/0g_testnet/flow_db.tar.gz -O $HOME/0g-storage-node/run/db/flow_db.tar.gz && tar -xzvf $HOME/0g-storage-node/run/db/flow_db.tar.gz -C $HOME/0g-storage-node/run/db/
+  ```
+
+  ## 🛑 Stop & Remove Node
+
+```bash
+sudo systemctl stop zgs
+sudo systemctl disable zgs
+sudo rm /etc/systemd/system/zgs.service
+rm -rf $HOME/0g-storage-node
+```
+
+## 🌍 Useful Links
+
+- 🔎 **Explorer (Check Transactions):**  
+  [chainscan-galileo.bangcode.id](https://chainscan-galileo.bangcode.id/)  
+  [chainscan-galileo.0g.ai](https://chainscan-galileo.0g.ai/)
+
+- ⛏️ **View Miner Details:**  
+  [storagescan-galileo.0g.ai/miner/](https://storagescan-galileo.0g.ai/miner/)  
+  *(Add your wallet address at the end)*
+
+---
+## ⏳ Node Sync Information
+
+> **Note:** ⏳ Node sync can take 6-12 hours (depending on your internet speed and hardware). ⚡ Once syncing is complete, the node will run automatically — no manual intervention needed! 
+---
+## 🙋 Need Help
+
+ 📺 **Guides & Updates:** [@LEGENDARYLOOTERSSS](https://t.me/LEGENDARYLOOTERSSS)
+
+ If U have any issue then open a issue on this repo or Dm me on Telegram~
+
+Thank You! Happy Coding!📈
+```
+
