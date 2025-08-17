@@ -25,4 +25,6 @@ Unlike validator nodes, they don’t secure blocks — they store & serve data.
 
           https://faucet.0g.ai/
 
+# 🔧 Install Dependencies
+
           
