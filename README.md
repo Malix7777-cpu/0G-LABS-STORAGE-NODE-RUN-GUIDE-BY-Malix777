@@ -4,7 +4,7 @@
 Unlike validator nodes, they don’t secure blocks — they store & serve data.
 📂 From AI models to big datasets, they keep everything persistent, available & resilient.
 
-                             🖥️ Minimum System Requirements
+                             # 🖥️ Minimum System Requirements
 🧠 Memory: 32 GB RAM
 🖥️ CPU: 8 cores
 💾 Disk: 500 GB / 1 TB NVMe SSD (adjust if needed)
