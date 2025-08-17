@@ -210,4 +210,3 @@ rm -rf $HOME/0g-storage-node
 
 Thank You! Happy Coding!📈
 ```
-
