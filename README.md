@@ -100,3 +100,41 @@ curl -o $HOME/0g-storage-node/run/config.toml https://raw.githubusercontent.com/
 nano $HOME/0g-storage-node/run/config.toml
 ```
 
+# Create a Systemd Service File
+
+```
+sudo tee /etc/systemd/system/zgs.service > /dev/null <<EOF
+[Unit]
+Description=ZGS Node
+After=network.target
+
+[Service]
+User=$USER
+WorkingDirectory=$HOME/0g-storage-node/run
+ExecStart=$HOME/0g-storage-node/target/release/zgs_node --config $HOME/0g-storage-node/run/config.toml
+Restart=on-failure
+RestartSec=10
+LimitNOFILE=65535
+
+[Install]
+WantedBy=multi-user.target
+EOF
+```
+
+* Reload
+
+```
+sudo systemctl daemon-reload
+```
+
+* Enable
+
+```
+sudo systemctl enable zgs
+```
+
+* Start service
+
+```
+sudo systemctl start zgs
+```
