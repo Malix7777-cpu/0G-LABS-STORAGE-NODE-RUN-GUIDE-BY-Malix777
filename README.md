@@ -173,9 +173,7 @@ rm -rf $HOME/0g-storage-node/run/db/flow_db
 
 * Download and extract the Flow db:
 
-  ```bash
-
-  curl -o $HOME/0g-storage-node/run/config.toml \
+ curl -o $HOME/0g-storage-node/run/config.toml \
 https://raw.githubusercontent.com/Malix7777-cpu/0G-LABS-STORAGE-NODE-RUN-GUIDE-BY-Malix777/main/config.toml
 
 ## Step 2: Download & Extract Latest Snapshot
@@ -186,7 +184,7 @@ tar -xzvf $HOME/0g-storage-node/run/db/flow_db.tar.gz -C $HOME/0g-storage-node/r
 
 cd $HOME/0g-storage-node/run
 ./start.sh
-  ```
+
 
   ## 🛑 Stop & Remove Node
 
