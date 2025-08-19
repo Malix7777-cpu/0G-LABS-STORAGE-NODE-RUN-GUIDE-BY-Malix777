@@ -1,3 +1,4 @@
+<div align="left">
 # 👻☠️0G-LABS-STORAGE-NODE-RUN-GUIDE-BY-Malix777
 # Introduction
 🚀 Storage Nodes = Data Backbone!
@@ -172,34 +173,15 @@ rm -rf $HOME/0g-storage-node/run/db/flow_db
 ```
 
 * Download and extract the Flow db:
-
- curl -o $HOME/0g-storage-node/run/config.toml \
-https://raw.githubusercontent.com/Malix7777-cpu/0G-LABS-STORAGE-NODE-RUN-GUIDE-BY-Malix777/main/config.toml
-
-## Step 2: Download & Extract Latest Snapshot
-```bash
-wget https://snapshot.corenodehq.xyz/0g_testnet/flow_db.tar.gz \
--O $HOME/0g-storage-node/run/db/flow_db.tar.gz && \
-tar -xzvf $HOME/0g-storage-node/run/db/flow_db.tar.gz -C $HOME/0g-storage-node/run/db/
-
-cd $HOME/0g-storage-node/run
-./start.sh
-
-
-  ## 🛑 Stop & Remove Node
-
-```bash
-sudo systemctl stop zgs
-sudo systemctl disable zgs
-sudo rm /etc/systemd/system/zgs.service
-rm -rf $HOME/0g-storage-node
 ```
-
-## 🔁 Restart ZGS Service
-
+wget https://snapshot.corenodehq.xyz/0g_testnet/flow_db.tar.gz -O $HOME/0g-storage-node/run/db/flow_db.tar.gz && tar -xzvf $HOME/0g-storage-node/run/db/flow_db.tar.gz -C $HOME/0g-storage-node/run/db/
 ```
-sudo systemctl restart zgs
-```
+  
+
+
+
+
+
 
 ## 💽 Check Disk Space
 
