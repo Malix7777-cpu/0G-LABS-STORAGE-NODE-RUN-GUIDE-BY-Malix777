@@ -1,0 +1,6 @@
+# 0G Storage Node Config by Malix777
+
+moniker = "Malix777"
+identity = ""
+keyring_backend = "test"
+log_level = "info"
