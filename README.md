@@ -154,7 +154,7 @@ tail -f ~/0g-storage-node/run/log/zgs.log.$(TZ=UTC date +%Y-%m-%d)
 ### ⛓️ Check Block & Sync Progress
 
 ```
-https://raw.githubusercontent.com/Malix7777-cpu/0G-LABS-STORAGE-NODE-RUN-GUIDE-BY-Malix777/refs/heads/main/logs.sh
+bash <(curl -s https://raw.githubusercontent.com/Malix7777-cpu/0G-LABS-STORAGE-NODE-RUN-GUIDE-BY-Malix777/refs/heads/main/logs.sh)
 ```
 
 ## ⚡ * ⚕️ This Snapshot will help u to sync Faster & it will start from Block -- `5.16M`
