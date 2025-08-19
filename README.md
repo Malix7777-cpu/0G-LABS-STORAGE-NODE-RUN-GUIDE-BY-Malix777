@@ -1,13 +1,22 @@
 <div align="left">
-# 👻☠️0G-LABS-STORAGE-NODE-RUN-GUIDE-BY-Malix777
 
-  # Introduction
-🚀 Storage Nodes = Data Backbone!
-Unlike validator nodes, they don’t secure blocks — they store & serve data.
-📂 From AI models to big datasets, they keep everything persistent, available & resilient.
-                      
- # 👻 0G Storage Node Guide ☠️
-## 🖥️ Minimum System Requirements
+#   **Introduction📔**
+
+</div>
+
+
+-----**Storage Nodes:**
+Unlike Validator Nodes that focus on securing the blockchain itself, Storage Nodes focus on managing and serving data. They are the backbone of the network's data storage capabilities, ensuring persistence and availability for long-term data storage (e.g., training datasets, large AI models). By running a storage node, you'll contribute to the decentralized storage of 0G data, making it accessible and resilient.
+
+<div align="center">
+
+#  👻💀 **0G Storage Node Guide** 
+
+</div>
+
+
+# Device/System Requirements 💻
+
 
 🧠 Memory: 32 GB RAM
 
