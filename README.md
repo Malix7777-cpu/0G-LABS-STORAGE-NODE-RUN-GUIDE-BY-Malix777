@@ -169,36 +169,22 @@ tail -f ~/0g-storage-node/run/log/zgs.log.$(TZ=UTC date +%Y-%m-%d)
 ## ⛓️ Check Block & Sync Progress
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/HustleAirdrops/0G-Storage-Node/main/logs.sh)
+bash <(curl -s https://raw.githubusercontent.com/Malix7777-cpu/0G-LABS-STORAGE-NODE-RUN-GUIDE-BY-Malix777/refs/heads/main/logs.sh)
 ```
 <img src="blocks.jpg" alt="Blocks">
 
 ---
 
-## ⚡ * ⚕️ This Snapshot will help u to sync Faster & it will start from Block -- `5.16M`
+## ⚡ *⚕️ This Snapshot will help u to sync Faster & it will start from Block -- `5.16M`
 
-🛠️ Installation Instructions
+## 4. 🧪 SNAPSHORT COMMAND :
 
-* Stop The Node & Delete flow db
-
-```
-sudo systemctl stop zgs
-```
-
-```
-rm -rf $HOME/0g-storage-node/run/db/flow_db
-```
-
-* Download and extract the Flow db:
-```
+```bash
+sudo systemctl stop zgs && \
+rm -rf $HOME/0g-storage-node/run/db/flow_db && \
 wget https://snapshot.corenodehq.xyz/0g_testnet/flow_db.tar.gz -O $HOME/0g-storage-node/run/db/flow_db.tar.gz && tar -xzvf $HOME/0g-storage-node/run/db/flow_db.tar.gz -C $HOME/0g-storage-node/run/db/
+sudo systemctl restart zgs
 ```
-  
-
-
-
-
-
 
 ## 💽 Check Disk Space
 
