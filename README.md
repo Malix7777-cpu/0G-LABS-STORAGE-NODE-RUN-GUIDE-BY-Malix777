@@ -182,6 +182,16 @@ rm -rf $HOME/0g-storage-node/run/db/flow_db && \
 wget https://snapshot.corenodehq.xyz/0g_testnet/flow_db.tar.gz -O $HOME/0g-storage-node/run/db/flow_db.tar.gz && tar -xzvf $HOME/0g-storage-node/run/db/flow_db.tar.gz -C $HOME/0g-storage-node/run/db/
 sudo systemctl restart zgs
 ```
+## 🛑 Stop & Remove Node
+
+```bash
+sudo systemctl stop zgs
+sudo systemctl disable zgs
+sudo rm /etc/systemd/system/zgs.service
+rm -rf $HOME/0g-storage-node
+```
+
+---
 
 ## 💽 Check Disk Space
 
