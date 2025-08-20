@@ -162,8 +162,6 @@ sudo systemctl status zgs
 tail -f ~/0g-storage-node/run/log/zgs.log.$(TZ=UTC date +%Y-%m-%d)
 ```
 
-<img src="logs.jpg" alt="Logs">
-
 ---
 
 ## ⛓️ Check Block & Sync Progress
@@ -171,7 +169,6 @@ tail -f ~/0g-storage-node/run/log/zgs.log.$(TZ=UTC date +%Y-%m-%d)
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/Malix7777-cpu/0G-LABS-STORAGE-NODE-RUN-GUIDE-BY-Malix777/refs/heads/main/logs.sh)
 ```
-<img src="blocks.jpg" alt="Blocks">
 
 ---
 
