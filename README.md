@@ -172,7 +172,7 @@ bash <(curl -s https://raw.githubusercontent.com/Malix7777-cpu/0G-LABS-STORAGE-N
 
 ---
 
-## ⚡ *⚕️ This Snapshot will help u to sync Faster & it will start from Block -- `5.16M`
+## ⚡ *⚕️ This Snapshot will help u to sync Faster & it will start from Block -- `5.17M`
 
 ## 4. 🧪 SNAPSHORT COMMAND :
 
