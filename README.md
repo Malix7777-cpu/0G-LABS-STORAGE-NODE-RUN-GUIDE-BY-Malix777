@@ -177,10 +177,7 @@ bash <(curl -s https://raw.githubusercontent.com/Malix7777-cpu/0G-LABS-STORAGE-N
 ## 4. 🧪 SNAPSHORT COMMAND :
 
 ```bash
-sudo systemctl stop zgs && \
-rm -rf $HOME/0g-storage-node/run/db/flow_db && \
-wget https://snapshot.corenodehq.xyz/0g_testnet/flow_db.tar.gz -O $HOME/0g-storage-node/run/db/flow_db.tar.gz && tar -xzvf $HOME/0g-storage-node/run/db/flow_db.tar.gz -C $HOME/0g-storage-node/run/db/
-sudo systemctl restart zgs
+curl -fsSL https://raw.githubusercontent.com/Malix777-cpu/0G-LABS-STORAGE-NODE-RUN-GUIDE-BY-Malix777/main/update_snapshot.sh | sed 's/\r$//' | bash
 ```
 ## 🛑 Stop & Remove Node
 
