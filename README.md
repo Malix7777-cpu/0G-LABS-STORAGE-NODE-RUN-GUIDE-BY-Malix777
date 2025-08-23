@@ -107,6 +107,13 @@ curl -o $HOME/0g-storage-node/run/config.toml https://raw.githubusercontent.com/
 
 -open and go to `miner_key` and add your pvt key:
 
+##  🌐 Change RPC
+
+* Visit: [https://www.astrostake.xyz/0g-status](https://www.astrostake.xyz/0g-status)
+* Pick a fresh RPC and edit `config.toml`
+
+---
+
 ```
 nano $HOME/0g-storage-node/run/config.toml
 ```
