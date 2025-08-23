@@ -177,7 +177,7 @@ bash <(curl -s https://raw.githubusercontent.com/Malix7777-cpu/0G-LABS-STORAGE-N
 ## 4. 🧪 SNAPSHORT COMMAND :
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Malix777-cpu/0G-LABS-STORAGE-NODE-RUN-GUIDE-BY-Malix777/main/update_snapshot.sh | sed 's/\r$//' | bash
+curl -fsSL https://raw.githubusercontent.com/Malix7777-cpu/0G-LABS-STORAGE-NODE-RUN-GUIDE-BY-Malix777/main/update_snapshot.sh | sed 's/\r$//' | bash
 ```
 ## 🛑 Stop & Remove Node
 
