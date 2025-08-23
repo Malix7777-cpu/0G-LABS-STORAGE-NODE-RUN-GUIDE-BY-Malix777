@@ -144,37 +144,38 @@ sudo systemctl daemon-reload
 sudo systemctl enable zgs
 ```
 
-* Start service
 
-```
+## ▶️ Start Your Node
+
+```bash
 sudo systemctl start zgs
 ```
 
-# 📡Managing Logs
+---
+## 📋 Check Node Status & Logs
 
-```
-sudo systemctl status zgs
-```
-
-* check Full Logs
-
-```
-tail -f ~/0g-storage-node/run/log/zgs.log.$(TZ=UTC date +%Y-%m-%d)
-```
+- 🔍 **Check if Node is Running:**
+  ```bash
+  sudo systemctl status zgs
+  ```
+- 📜 **See Live Logs:**
+  ```bash
+  tail -f ~/0g-storage-node/run/log/zgs.log.$(TZ=UTC date +%Y-%m-%d)
+  ```
+<img src="logs.jpg" alt="Logs">
 
 ---
 
-## ⛓️ Check Block & Sync Progress
+## ⛓ Check Block & Sync Progress
 
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/Malix7777-cpu/0G-LABS-STORAGE-NODE-RUN-GUIDE-BY-Malix777/refs/heads/main/logs.sh)
 ```
+<img src="blocks.jpg" alt="Blocks">
 
 ---
 
-## ⚡ *⚕️ This Snapshot will help u to sync Faster & it will start from Block -- `5.17M`
-
-## 4. 🧪 SNAPSHORT COMMAND :
+## ⚡ This snapshot boosts your sync speed — launching straight from Block #5.17M 🚀
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/Malix7777-cpu/0G-LABS-STORAGE-NODE-RUN-GUIDE-BY-Malix777/main/update_snapshot.sh | sed 's/\r$//' | bash
@@ -190,11 +191,6 @@ rm -rf $HOME/0g-storage-node
 
 ---
 
-## 💽 Check Disk Space
-
-```bash
-df -h
-```
 ## 🌍 Useful Links
 
 - 🔎 **Explorer (Check Transactions):**  
