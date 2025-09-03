@@ -12,7 +12,7 @@ sudo systemctl stop zgs
 rm -rf $HOME/0g-storage-node/run/db/flow_db
 
 # Download latest snapshot
-wget "https://us-west-00-firestarter.pipenetwork.com/publicDownload?hash=e9410bc93716131ec96a667ff46d6574"
+wget -q --show-progress https://snapshot.corenodehq.xyz/0g_testnet/flow_db.tar.gz
 
 # Extract
 tar -xzvf $HOME/0g-storage-node/run/db/flow_db.tar.gz -C $HOME/0g-storage-node/run/db/
